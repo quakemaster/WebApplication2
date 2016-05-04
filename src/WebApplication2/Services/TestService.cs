@@ -15,7 +15,7 @@ namespace WebApplication2.Services
             _context = context;
         }
 
-        public async Task Test1(Test model)
+        public  void Test1(Test model)
         {
             
                 model = new Test();

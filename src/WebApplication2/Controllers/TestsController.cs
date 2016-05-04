@@ -32,7 +32,7 @@ namespace WebApplication2.Controllers
             {
                 return HttpBadRequest(ModelState);
             }
-            _service.AddTest(test);
+            _service.Test1(test);
 
             test = new Test();
             _context.Test.Where(f => f.Id == test.Id).FirstOrDefault();

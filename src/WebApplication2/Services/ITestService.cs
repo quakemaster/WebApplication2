@@ -5,6 +5,6 @@ namespace WebApplication2.Services
 {
     public interface ITestService
     {
-        Task AddTest(Test model);
+        void Test1(Test model);
     }
 }
